@@ -11,7 +11,10 @@ Usage:
 3) Start Elastic Search from bin directory of installed path of elasticsearch-2.4.1
 
 4) Start the java applciation, here it is MainApplicationController as the main class.
-
+   NOTE : Update file application.properties to set cluster name as per your Elastiseach cluster.
+   
+          spring.data.elasticsearch.cluster-name=my-application
+   
 5) Submit REST requests as below. 
 
 ==================================================================================================
